@@ -79,7 +79,7 @@ export default function Forms() {
       </div>
       {selectCity && (
         <h2 className={styles.text}>
-          You selected <span className={styles.highlight}>{selectCountry}</span>,
+          You selected{" "}<span className={styles.highlight}>{selectCountry}</span>,
           <span className={styles.light}>
             {" "}
             {selectState}, {selectCity}
