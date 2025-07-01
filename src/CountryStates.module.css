@@ -1,0 +1,31 @@
+.forms {
+  text-align: center;
+}
+
+
+.forms-container{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.select{
+  padding: 10px;
+  font-size: 15px;
+}
+
+.text {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.highlight {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.light {
+  color: #888;
+}
